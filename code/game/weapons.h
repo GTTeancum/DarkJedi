@@ -216,7 +216,7 @@ typedef struct ammoData_s
 
 // Heavy Repeater
 //----------
-#define REPEATER_SPREAD				1.4f
+#define REPEATER_SPREAD				1.0f
 #define REPEATER_NPC_SPREAD			0.7f
 #define	REPEATER_DAMAGE				8
 #define	REPEATER_VELOCITY			1600
