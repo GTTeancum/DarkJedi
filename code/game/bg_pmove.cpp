@@ -13673,8 +13673,8 @@ static void PM_Weapon( void )
 					else
 					{
 						int anim = -1;
-						if ( (pm->ps->clientNum < MAX_CLIENTS ||PM_ControlledByPlayer())
-							&& g_debugMelee->integer )
+						if ( (pm->ps->clientNum < MAX_CLIENTS ||PM_ControlledByPlayer()))
+							//&& g_debugMelee->integer ) //g_debugMelee no longer required to do kicks and grapples
 						{
 							if ( (pm->cmd.buttons&BUTTON_ALT_ATTACK) )
 							{
