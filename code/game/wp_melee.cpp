@@ -53,11 +53,11 @@ void WP_Melee( gentity_t *ent )
 	{
 		if ( ent->s.number || ent->alt_fire )
 		{
-			damage *= Q_irand( 2, 3 );
+			damage *= Q_irand( 6, 10 ); //upped from 2,3
 		}
 		else
 		{
-			damage *= Q_irand( 1, 2 );
+			damage *= Q_irand( 6, 10 ); //upped from 1,2
 		}
 	}
 
